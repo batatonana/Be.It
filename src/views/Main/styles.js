@@ -1,10 +1,9 @@
-import React from "react";
 import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
         navbar:{
-            flex:1,
-            alignItems:"center",
-            justifyContent:"center"
+            backgroundColor:'#60A05B',
+            height: 75,
+            width: "100%"
         }
     });

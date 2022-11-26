@@ -4,6 +4,7 @@ import { Payout } from "./Payout";
 import { Profile } from "./Profile";
 import Icon from "react-native-vector-icons/FontAwesome";
 import Icon5 from "react-native-vector-icons/FontAwesome5";
+import { styles } from "./styles";
 
 export const Main = ({ navigation }) => {
   const Tab = createMaterialBottomTabNavigator();
@@ -11,15 +12,14 @@ export const Main = ({ navigation }) => {
   return (
     <Tab.Navigator
       initialRouteName="Home"
-      inactiveColor="#A06CD5"
-      activeColor="#E2CF00"
-      labeled={false}
-      barStyle={{ backgroundColor: "#0000000d"
-     }}
+      shifting = {'false'}
+      inactiveColor="#FFFFFF"
+      activeColor="#795030"
+      barStyle={styles.navbar}
     >
       <Tab.Screen
-        name="Home"
-        component={Home}
+        name="Payout"
+        component={Payout}
         options={{
           tabBarIcon: ({ color }) => (
             <Icon5 name="wallet" size={25} color={color} />
@@ -28,8 +28,8 @@ export const Main = ({ navigation }) => {
         barStyle={{ }}
       />
       <Tab.Screen
-        name="Payout"
-        component={Payout}
+        name="Home"
+        component={Home}
         options={{
           tabBarIcon: ({ color }) => (
             <Icon name="home" size={30} color={color} />
