@@ -1,9 +1,9 @@
-import { View, Text } from "react-native"
+import { View, Text, Button } from "react-native"
 
 export const Login = () => {
     return(
         <View>
-        <Text>HELLO</Text>
+            <Text>HELLO</Text>
      </View>
     )
    
