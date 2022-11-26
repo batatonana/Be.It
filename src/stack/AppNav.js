@@ -8,9 +8,11 @@ export const AppNav = () => {
 
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Login">
+      <Stack.Navigator initialRouteName="Login" screenOptions={{
+        headerShown:false
+    }}>
         <Stack.Screen name="Login" component={Login} />
-        <Stack.Screen name="Main" component={Main} />
+        <Stack.Screen name="Main" component={Main} options={{gestureEnabled: false}}/>
       </Stack.Navigator>
     </NavigationContainer>
   );
