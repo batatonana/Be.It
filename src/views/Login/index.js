@@ -1,10 +1,12 @@
-import { View, Text, Button } from "react-native"
+import { View, Text, Button } from "react-native";
+import { styles } from "./styles";
+import { StatusBar } from "expo-status-bar";
 
 export const Login = () => {
-    return(
-        <View>
-            <Text>HELLO</Text>
-     </View>
-    )
-   
-}
+  return (
+    <View style={styles.container1}>
+      <View style={styles.container2}>
+      </View>
+    </View>
+  );
+};
