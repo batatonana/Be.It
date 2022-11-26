@@ -3,10 +3,13 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { Login } from "../views/Auth/Login";
 
 export const AppNav = () => {
+
+    const Stack = createStackNavigator();
+
     return(
         <NavigationContainer>
             <Stack.Navigator>
-                <Stack.Screen name = 'main' component={Login}/>
+                <Stack.Screen name = 'Main' component={Login}/>
             </Stack.Navigator>
         </NavigationContainer>
     );
