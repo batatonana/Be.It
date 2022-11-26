@@ -1,10 +1,10 @@
 import { View, Text } from "react-native";
 import { styles } from "./styles";
 
-export const Home = () => {
+export const Profile = () => {
     return(
         <View style={styles.center}>
-            <Text>HOME</Text>
+            <Text>Profile</Text>
         </View>
     );
 };

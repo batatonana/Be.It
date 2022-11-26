@@ -15,7 +15,7 @@ export const AppNav = () => {
         }}
       >
         <Stack.Screen name="Login" component={Login} />
-        <Stack.Screen name="Main" component={Main} />
+        <Stack.Screen name="Main" component={Main} options={{gestureEnabled: false}}/>
       </Stack.Navigator>
     </NavigationContainer>
   );
