@@ -21,7 +21,7 @@ export const styles = StyleSheet.create({
         moneyText:{
             fontSize:"55%",
             marginRight:10,
-                },
+        },
         container:{
             margin:10,
             height:"5%",
