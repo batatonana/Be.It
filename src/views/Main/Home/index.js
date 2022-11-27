@@ -37,7 +37,7 @@ export const Home = () => {
       </View>
       <View style={styles.card}>
         <View style={styles.card1}>
-          <Text style={styles.text}>Desafio Supresa</Text>
+          <Text style={styles.text}>Surprise Challenge</Text>
           <Text style={styles.inProgress}>In progress</Text>
         </View>
       </View>
