@@ -3,6 +3,7 @@ import { StyleSheet, StatusBar } from "react-native";
 
 export const styles = StyleSheet.create({
   scrollView: {
+    display: "flex",
     alignContent: "center",
   },
   scrollBar: {

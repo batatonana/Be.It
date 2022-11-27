@@ -4,9 +4,9 @@ import { styles } from "./styles";
 export const Profile = ({ navigation }) => {
   return (
     <SafeAreaView style={styles.scrollBar}>
-      <ScrollView>
+      <ScrollView style={styles.scrollView}>
         <Text>Profile</Text>
-        <View style={styles.center}> 
+        <View style={styles.center}>
           <Button title="LOGOUT" onPress={() => navigation.navigate("Login")} />
         </View>
       </ScrollView>
