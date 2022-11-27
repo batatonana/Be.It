@@ -25,9 +25,16 @@ export const styles = StyleSheet.create({
   inputBox: {
     backgroundColor: "white",
     justifyContent: "center",
-    width: 250,
-    height: 30,
-    margin: "5%",
+    width: "80%",
+    height: "17%",
+    marginTop: "7%",
+  },
+  input: {
+    flex:1,
+    backgroundColor: "white",
+    justifyContent: "center",
+    width: "100%",
+    marginTop: "5%",
     borderColor: "#894303",
     borderWidth: "1px",
     paddingLeft: "2.5%",
@@ -47,8 +54,9 @@ export const styles = StyleSheet.create({
     color:"#ffffff",
   },
   signupText: {
-    marginTop: "5%",
     color: "#275309",
-    textDecorationLine: "underline",
   },
+  signupText1:{
+    color:"#4A448D"
+  }
 });
