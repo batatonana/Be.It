@@ -4,8 +4,15 @@ import { styles } from "./styles";
 export const Home = () => {
     return(
         <View style={styles.center}>
-            <Text>HOME</Text>
-           
+            <View>
+                <Text></Text>
+            </View>
+           <View>
+
+           </View>
+           <View>
+            
+           </View>
         </View>
     );
 };
