@@ -36,7 +36,7 @@ export const styles = StyleSheet.create({
             marginBottom:"5%",
         },
         completed:{
-            color: "#60A05B",
+            color: "#01593D",
             fontWeight: "700",
         },
         inProgress:{
@@ -71,6 +71,6 @@ export const styles = StyleSheet.create({
             borderRadius:"100%",
             width:"100%",
             height:8,
-            backgroundColor:"#60A05B",
+            backgroundColor:"#01593D",
         }
     });
