@@ -12,6 +12,7 @@ export const styles = StyleSheet.create({
             display:"flex",
             alignItems:"center",
             justifyContent:"center",
+            flexDirection:"row",
             borderRadius:16,
             backgroundColor: "#01593D20",
             width: "85%",
@@ -19,7 +20,8 @@ export const styles = StyleSheet.create({
         },
         moneyText:{
             fontSize:"55%",
-        },
+            marginRight:10,
+                },
         container:{
             margin:10,
             height:"5%",

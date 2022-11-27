@@ -1,4 +1,4 @@
-import { View, Text } from "react-native";
+import { View, Text, Image } from "react-native";
 import { styles } from "./styles";
 import Icon from "react-native-vector-icons/MaterialCommunityIcons";
 
@@ -8,7 +8,11 @@ export const Home = () => {
   return (
     <View style={styles.center}>
       <View style={styles.moneyCard}>
-        <Text style={styles.moneyText}>{variable}$</Text>
+        <Text style={styles.moneyText}>{variable}</Text>
+        <Image
+            source={require("../../../../assets/Logo.png")}
+            style={{ width: 70, height: 70 }}
+          />
       </View>
       <View style={styles.container}>
         <View style={styles.container2}>

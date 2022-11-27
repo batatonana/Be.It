@@ -21,6 +21,11 @@ export const styles = StyleSheet.create({
     display:"flex",
     flexDirection:"row"
   },
+  container4: {
+    display:"flex",
+    flexDirection:"row",
+    alignItems: "center",
+  },
 
   inputBox: {
     backgroundColor: "white",

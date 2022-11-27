@@ -1,12 +1,17 @@
-import { View, Text, Button, Pressable, TextInput } from "react-native";
+import { View, Text, Pressable, TextInput, Image } from "react-native";
 import { styles } from "./styles";
 
 export const Login = ({ navigation }) => {
-
   return (
     <View style={styles.container1}>
       <View style={styles.container2}>
-        <Text style={styles.header}>EcoEd</Text>
+        <View style={styles.container4}>
+          <Image
+            source={require("../../../assets/Logo.png")}
+            style={{ width: 70, height: 70 }}
+          />
+          <Text style={styles.header}>EcoEd</Text>
+        </View>
         <View style={styles.inputBox}>
           <Text style={styles.inputText}>Email</Text>
           <TextInput placeholder="Username" style={styles.input} />
@@ -31,10 +36,10 @@ export const Login = ({ navigation }) => {
               marginTop: "20%",
               marginBottom: "5%",
               backgroundColor: "#4A448D",
-              shadowOffset:pressed?{width:-2,height:4}:null,
-              shadowColor:pressed?'#171717':null,
-              shadowOpacity:pressed?0.2:0,
-              shadowRadius:3,
+              shadowOffset: pressed ? { width: -2, height: 4 } : null,
+              shadowColor: pressed ? "#171717" : null,
+              shadowOpacity: pressed ? 0.2 : 0,
+              shadowRadius: 3,
             },
             styles.wrapperCustom,
           ]}
