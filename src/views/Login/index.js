@@ -1,6 +1,7 @@
 import { View, Text, Button, Pressable, TextInput } from "react-native";
 import { styles } from "./styles";
 import { StatusBar } from "expo-status-bar";
+import {SvgXml} from "react-native-svg";
 
 export const Login = ({ navigation }) => {
   return (
