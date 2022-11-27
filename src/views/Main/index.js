@@ -12,9 +12,9 @@ export const Main = ({ navigation }) => {
   return (
     <Tab.Navigator
       initialRouteName="Home"
-      shifting = {'false'}
-      inactiveColor="#FFFFFF"
-      activeColor="#795030"
+      shifting = {true}
+      inactiveColor="#01593D"
+      activeColor="#4A448D"
       barStyle={styles.navbar}
     >
       <Tab.Screen
@@ -32,7 +32,7 @@ export const Main = ({ navigation }) => {
         component={Home}
         options={{
           tabBarIcon: ({ color }) => (
-            <Icon name="home" size={30} color={color} />
+            <Icon name="home" size={27} color={color} />
           ),
         }}
       />

@@ -2,7 +2,7 @@ import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
   container1: {
-    backgroundColor: "#275309",
+    backgroundColor: "#01593D",
     width: "100%",
     height: "100%",
     display: "flex",
@@ -10,51 +10,45 @@ export const styles = StyleSheet.create({
     justifyContent: "center",
   },
   container2: {
-    backgroundColor: "#E9E6D4",
+    backgroundColor: "#FFFFFF",
     alignItems: "center",
     justifyContent: "center",
     borderRadius: "25%",
     height: "60%",
-    width: "80%",
+    width: "92%",
   },
-  placeholder: {
-    backgroundColor: "#275309",
-    color: "white",
-    width: 100,
-    height: 50,
-    marginBottom: "30%",
+  container3: {
+    display:"flex",
+    flexDirection:"row"
   },
+
   inputBox: {
     backgroundColor: "white",
     justifyContent: "center",
     width: 250,
     height: 30,
-    marginBottom: "5%",
+    margin: "5%",
     borderColor: "#894303",
     borderWidth: "1px",
     paddingLeft: "2.5%",
-    borderRadius: "5%",
+    borderRadius: 8,
   },
-  buttonLogin: {
-    backgroundColor: "#894303",
-    width: 80,
-    height: 40,
+  buttonLogin: {  
+    backgroundColor: "#4A448D",
+    width: "60%",
+    height: "10%",
     alignItems: "center",
     justifyContent: "center",
-    borderRadius: "10%",
-    marginTop: "30%",
+    borderRadius: 24,
+    marginTop: "20%",
+    marginBottom: "5%"
   },
   buttonLoginText: {
-    color: "white",
+    color:"#ffffff",
   },
   signupText: {
     marginTop: "5%",
     color: "#275309",
     textDecorationLine: "underline",
   },
-  header:{
-    marginVertical:"2.5%",
-    left: 30,
-    alignSelf:"flex-start",
-  }
 });
