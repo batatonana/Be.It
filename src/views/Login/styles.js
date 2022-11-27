@@ -29,7 +29,7 @@ export const styles = StyleSheet.create({
     justifyContent: "center",
     width: 250,
     height: 30,
-    margin: "5%",
+    marginBottom: "5%",
     borderColor: "#894303",
     borderWidth: "1px",
     paddingLeft: "2.5%",
@@ -52,4 +52,9 @@ export const styles = StyleSheet.create({
     color: "#275309",
     textDecorationLine: "underline",
   },
+  header:{
+    marginVertical:"2.5%",
+    left: 30,
+    alignSelf:"flex-start",
+  }
 });
