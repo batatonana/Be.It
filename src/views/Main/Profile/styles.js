@@ -2,22 +2,18 @@ import React, { cloneElement } from "react";
 import { StyleSheet, StatusBar } from "react-native";
 
 export const styles = StyleSheet.create({
-  
-  scrollView:{
-  },
 
   scrollBar: {
-    paddingTop: StatusBar.currentHeight,
-    overflow: "hidden",
+    display:"flex",
+    alignItems:"center",
+    justifyContent:"center",
   },
   text: {
     marginVertical:"10%",
-    alignSelf: "center",
     fontSize: 32,
   },
   profilePic: {
     marginBottom:"10%",
-    alignSelf: "center",
     width:124,
     height:124,
     backgroundColor:"#01593D",
@@ -25,16 +21,13 @@ export const styles = StyleSheet.create({
   },
   username:{
     fontSize: 24,
-    alignSelf: "center",
   },
   at:{
     fontSize: 16,
-    alignSelf:"center",
     marginBottom:"10%"
   },
   editProfile:{
     marginBottom:"10%",
-    alignSelf:"center",
     width:169,
     height:43,
     backgroundColor:"#4A448D",
@@ -44,16 +37,16 @@ export const styles = StyleSheet.create({
   },
   editProfileText:{
     color: "white",
-    fontSize: 20,
+    fontSize:16,
+    fontWeight: "600",
   },
   container:{
     display:"flex",
     flexDirection: "row",
+    alignItems:"flex-start",
+    justifyContent:"flex-start",
     marginVertical:10,
     maxWidth: "80%",
-  },
-  containerIcon:{
-
   },
   containerText:{
     fontSize: 20,
@@ -63,20 +56,16 @@ export const styles = StyleSheet.create({
     width:27,
     height:27,
     borderRadius:"100%",
-    backgroundColor:"#02b67d",
-  },
-  containerButtonText:{
-
+    backgroundColor:"#01593D80",
+    display:"flex",
+    alignItems:"center",
+    justifyContent:"center",
   },
   containerSeparator:{
     width: "80%",
-    height: 3,
-    backgroundColor: "black",
+    height:3,
+    backgroundColor: "#01593D",
     borderRadius: "10%",
-  },
-  containerParent:{
-    display: "flex",
-    alignItems:"center",
   },
   logout:{
     marginVertical:"10%",
@@ -89,7 +78,8 @@ export const styles = StyleSheet.create({
     justifyContent:"center",
   },
   logoutText:{
-    fontSize:23,
+    fontSize:16,
+    fontWeight: "600",
     color:"white",
   }
 

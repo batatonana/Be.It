@@ -52,11 +52,24 @@ export const styles = StyleSheet.create({
   },
   buttonLoginText: {
     color:"#ffffff",
+    fontSize:16,
+    fontWeight: "600",
+    color:"white",
   },
   signupText: {
     color: "#275309",
   },
   signupText1:{
-    color:"#4A448D"
+    color:"#4A448D",
+    fontWeight:"700"
+  },
+  inputText:{
+    color:"#000",
+    fontWeight:"600"
+  },
+  header:{
+    fontSize:"30%",
+    fontWeight:"700",
+    color:"#01593D"
   }
 });

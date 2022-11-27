@@ -1,19 +1,18 @@
 import { View, Text, Button, Pressable, TextInput } from "react-native";
 import { styles } from "./styles";
-import { StatusBar } from "expo-status-bar";
-import {SvgXml} from "react-native-svg";
 
 export const Login = ({ navigation }) => {
+
   return (
     <View style={styles.container1}>
       <View style={styles.container2}>
-        <Text style={styles.placeholder}>PLACEHOLDER</Text>
+        <Text style={styles.header}>EcoEd</Text>
         <View style={styles.inputBox}>
-          <Text>Email</Text>
+          <Text style={styles.inputText}>Email</Text>
           <TextInput placeholder="Username" style={styles.input} />
         </View>
         <View style={styles.inputBox}>
-          <Text>Password</Text>
+          <Text style={styles.inputText}>Password</Text>
           <TextInput
             placeholder="Password"
             style={styles.input}
@@ -40,7 +39,7 @@ export const Login = ({ navigation }) => {
             styles.wrapperCustom,
           ]}
         >
-          <Text style={styles.buttonLoginText}>LOGIN</Text>
+          <Text style={styles.buttonLoginText}>Login</Text>
         </Pressable>
         <View style={styles.container3}>
           <Text style={styles.signupText}>No account? </Text>
